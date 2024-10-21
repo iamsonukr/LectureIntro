@@ -7,8 +7,8 @@ function showDateTime() {
 
 // show weather
 const api = {
-    key: API_KEY,
-    base: API_URL
+    key: ENV.API_KEY,
+    base: ENV.API_URL
 };
 
 function fetchWeather() {
