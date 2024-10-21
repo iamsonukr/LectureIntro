@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black !important; */
+    color: white !important;
+    /* background-color: #02386E; */
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(to bottom, #ffffff, #E0F6FF); */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease;
+    background-color: #ffffff;
+    /* background-image: url('https://images.pexels.com/photos/28097397/pexels-photo-28097397/free-photo-of-cycling-path-meanders-through-rolling-green-hills-with-stunning-mountain-range-in-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.app {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: #00172D;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 90%;
+    width: 400px;
+}
+
+.app.warm {
+    /* background: linear-gradient(to bottom, #ffffff, #ffdcce); */
+    background-color: #00172D;
+}
+
+h1 {
+    color: #34495e;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.location {
+    color: #16a085;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+    color: #2c3e50;
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.weather-box {
+    margin-top: 20px;
+}
+
+.weather-box .temp {
+    color: #616161;
+    font-size: 1em;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-box .weather {
+    color: #949494;
+    font-size: 0.6em;
+    /* margin-top: 10px; */
+    font-weight: 700;
+}
+
+/* time */
+#dateTime{
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(109, 109, 109);
+    font-weight: 400;
+    
+}
+.day{
+    color: #34495e;
+}
+
+@media (max-width: 480px) {
+    .app {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    .location-box .location {
+        font-size: 0.5em;
+    }
+    .weather-box .temp {
+        font-size: 2em;
+    }
+}

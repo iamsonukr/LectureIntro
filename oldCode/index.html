@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Page with Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <h1> 
+            <span id="greeting">Good day!</span>
+            <span onclick="setDay()">🌻</span>
+        </h1>
+        <h2 class="date">Web Development Training </h2>
+        <h2 class="day" >DAY <span id="noOfDay">6</span> </h2>
+        <div class="location-box">
+            <div class="date" id="currentDate"></div>
+            <div id="dateTime"></div>
+        </div>
+        <div class="weather-box">
+            <div class="location"> Gurugram, IN</div>
+            <div class="temp" id="temperature"></div>
+            <div class="weather" id="weatherCondition"></div>
+        </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
