@@ -91,7 +91,7 @@ const WeatherApp = () => {
                 <div id="dateTime">{dateTime}</div>
             </div>
             <div className="weather-box">
-                <div className="location">Gurugram, IN</div>
+                <div className="location">Delhi, IN</div>
                 <div className="temp" id="temperature">{weather ? `${Math.round(weather.main.temp)}°C` : 'Loading...'}</div>
                 <div className="weather" id="weatherCondition">{weather ? weather.weather[0].main : 'Loading...'}</div>
             </div>
