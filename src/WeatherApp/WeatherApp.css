@@ -17,7 +17,10 @@ body {
     align-items: center;
     transition: 0.4s ease;
     background-color: #ffffff;
-    /* background-image: url('https://images.pexels.com/photos/28097397/pexels-photo-28097397/free-photo-of-cycling-path-meanders-through-rolling-green-hills-with-stunning-mountain-range-in-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-image: url('https://live.staticflickr.com/547/20332197581_1ab178231d_h.jpg');
+    background-image: url('https://i.pinimg.com/736x/e6/c9/14/e6c914dd1431dc9278d48d1c94fb143c.jpg');
+    background-image: url('https://crva.imgix.net/charlotte-video-call-computer-backgrounds/Charlotte-Skyline-web.jpg?auto=compress%2Cformat&fit=crop&fm=webp&ixlib=php-3.1.0&q=80&v=1590526142');
+    background-image: url('https://images.pexels.com/photos/1619569/pexels-photo-1619569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,12 +28,15 @@ body {
 
 .app {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    background-color: #00172D;
+    transform: scale(1.7);
+    background-color: #0a0202ab;
+    filter: blur(px);
+    backdrop-filter: blur(6px);
     padding: 2rem;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 90%;
+    max-width: 100%;
     width: 400px;
 }
 
